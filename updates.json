@@ -1,14 +1,35 @@
 {
-  "latest": "6.2",
+  "latest": "6.3",
   "released": "2026-11-20",
-  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.2",
+  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.3",
   "zip": {
-    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.2/JG-YouTube-Enhancer-v6.2.zip",
-    "sha256": "f4f8a34cdddb385300278abeca17e951eb4802036643d090a7305aeb4d22a76a",
-    "size": 1582996,
-    "name": "JG-YouTube-Enhancer-v6.2.zip"
+    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.3/JG-YouTube-Enhancer-v6.3.zip",
+    "sha256": "f4711378efc8d43abdde881579361d9f8a1fcdccb125341eb0b6ca4d4a12a49f",
+    "size": 1587153,
+    "name": "JG-YouTube-Enhancer-v6.3.zip"
   },
   "changelog": [
+    {
+      "version": "6.3",
+      "date": "2026-11-20",
+      "title": "SponsorBlock e biblioteca de letras",
+      "added": [
+        "SponsorBlock: pula sozinho patrocínios, autopromoção e pedidos de like/inscrição marcados pela comunidade",
+        "Ao pular um trecho aparece um aviso — clique nele para voltar",
+        "Trechos do SponsorBlock aparecem coloridos na barra de progresso",
+        "Aba Player mostra os trechos do vídeo e quanto tempo você economizou",
+        "Ajustes → SponsorBlock: escolha o que pular (intro, encerramento, enrolação e mais)",
+        "Busca e contador na biblioteca de letras",
+        "Botão para limpar a biblioteca de letras (pede confirmação)"
+      ],
+      "changed": [],
+      "removed": [],
+      "fixed": [
+        "Biblioteca de letras com muitas músicas deixava os botões minúsculos e ilegíveis",
+        "O mesmo problema nas listas de momentos e de downloads",
+        "Avisos que reapareciam rápido podiam sumir antes da hora"
+      ]
+    },
     {
       "version": "6.2",
       "date": "2026-11-20",

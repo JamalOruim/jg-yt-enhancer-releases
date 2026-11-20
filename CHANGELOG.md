@@ -1,5 +1,15 @@
 # Histórico de versões
 
+## v6.4 — Correções de deslikes, letras e atualização (2026-11-20)
+
+**Alterado**
+- Deslikes e busca de letras agora passam pelo processo interno da extensão, sem depender da página do YouTube
+- "Atualizar agora" avisa com clareza quando o host nativo está registrado em outra pasta e diz o que fazer
+
+**Corrigido**
+- Erro "Unsafe attempt to load URL" ao buscar os deslikes
+- Busca de letras podendo ser bloqueada pelo YouTube
+
 ## v6.3 — SponsorBlock e biblioteca de letras (2026-11-20)
 
 **Novo**

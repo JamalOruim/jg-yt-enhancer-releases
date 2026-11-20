@@ -1,0 +1,79 @@
+{
+  "latest": "6.2",
+  "released": "2026-11-20",
+  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.2",
+  "zip": {
+    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.2/JG-YouTube-Enhancer-v6.2.zip",
+    "sha256": "f4f8a34cdddb385300278abeca17e951eb4802036643d090a7305aeb4d22a76a",
+    "size": 1582996,
+    "name": "JG-YouTube-Enhancer-v6.2.zip"
+  },
+  "changelog": [
+    {
+      "version": "6.2",
+      "date": "2026-11-20",
+      "title": "Atualizações automáticas",
+      "added": [
+        "Aviso de nova versão no painel e no botão JG, com a lista do que mudou",
+        "Botão \"Atualizar agora\": o host baixa a versão nova, confere a integridade e a extensão recarrega sozinha",
+        "Histórico de versões em Ajustes → Atualizações",
+        "Tela de novidades depois de cada atualização",
+        "O instalar_host.bat baixa o FFmpeg automaticamente se ele não estiver na pasta"
+      ],
+      "changed": [
+        "O ID da extensão agora é fixo: o host nativo continua funcionando mesmo se a pasta mudar de lugar",
+        "O instalar_host.bat não pede mais o ID da extensão"
+      ],
+      "removed": [
+        "Pergunta do ID da extensão no instalador"
+      ],
+      "fixed": []
+    },
+    {
+      "version": "6.1",
+      "date": "2026-11-19",
+      "title": "Playlists e erro 403",
+      "added": [
+        "Pergunta \"Só este vídeo\" ou \"Playlist inteira\" ao baixar um vídeo aberto numa playlist ou Mix",
+        "Downloads de playlist em subpasta, com arquivos numerados e progresso por item",
+        "Ajustes → Vídeo em playlist (Perguntar / Só o vídeo / Playlist toda)",
+        "Aviso \"Falta o solucionador JS\" com botão para instalar"
+      ],
+      "changed": [
+        "\"Atualizar yt-dlp\" agora instala o yt-dlp com o solucionador do desafio JavaScript do YouTube",
+        "Nomes de arquivo se ajustam ao limite de caminho do Windows"
+      ],
+      "removed": [],
+      "fixed": [
+        "Downloads falhando com \"HTTP Error 403: Forbidden\"",
+        "Download de playlist em MP3 falhava ao salvar a capa da própria playlist"
+      ]
+    },
+    {
+      "version": "6.0",
+      "date": "2026-11-18",
+      "title": "Painel novo",
+      "added": [
+        "Painel redesenhado com 7 cores de destaque, arrastável e funcionando em tela cheia",
+        "EQ gráfico interativo com espectro ao vivo e limiter",
+        "Fila de downloads com cancelar, tentar de novo, resolução até 4K, bitrate e trecho A–B",
+        "Letras sincronizadas com overlay karaokê, ajuste de sincronia e biblioteca",
+        "Loop A–B e momentos marcados na barra de progresso",
+        "Backup e restauração das configurações"
+      ],
+      "changed": [
+        "Filtros de vídeo com presets, matiz e inverter",
+        "Contador de deslikes com barra de aprovação"
+      ],
+      "removed": [
+        "Botões de texto antigos do painel (substituídos por ícones)"
+      ],
+      "fixed": [
+        "Vídeo ficava mudo depois de pular anúncios",
+        "Títulos e nomes com caracteres especiais quebravam a interface",
+        "Formato OGG sempre falhava",
+        "Status \"Online\" aparecia mesmo com o host desligado"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 Extensão para Chrome / Edge / Brave que turbina o YouTube: EQ gráfico, downloads com fila (yt-dlp),
 letras sincronizadas, loop A–B, filtros de vídeo, filtro de chat, deslikes e mais.
 
-**Versão atual: 6.3** — [baixar o .zip](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.3/JG-YouTube-Enhancer-v6.3.zip) · [todas as versões](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases)
+**Versão atual: 6.4** — [baixar o .zip](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.4/JG-YouTube-Enhancer-v6.4.zip) · [todas as versões](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases)
 
 ## Instalação (primeira vez)
 
@@ -18,23 +18,17 @@ A extensão verifica sozinha. Quando sair uma versão nova aparece um aviso no Y
 No painel, clique em **Atualizar agora**: ela baixa, confere a integridade e recarrega sozinha.
 Sem o host instalado, use **Atualizar manualmente**: extraia o `.zip` novo por cima da pasta atual e clique em **Já extraí — recarregar**.
 
-## Novidades da 6.3
+## Novidades da 6.4
 
-### v6.3 — SponsorBlock e biblioteca de letras (2026-11-20)
+### v6.4 — Correções de deslikes, letras e atualização (2026-11-20)
 
-**Novo**
-- SponsorBlock: pula sozinho patrocínios, autopromoção e pedidos de like/inscrição marcados pela comunidade
-- Ao pular um trecho aparece um aviso — clique nele para voltar
-- Trechos do SponsorBlock aparecem coloridos na barra de progresso
-- Aba Player mostra os trechos do vídeo e quanto tempo você economizou
-- Ajustes → SponsorBlock: escolha o que pular (intro, encerramento, enrolação e mais)
-- Busca e contador na biblioteca de letras
-- Botão para limpar a biblioteca de letras (pede confirmação)
+**Alterado**
+- Deslikes e busca de letras agora passam pelo processo interno da extensão, sem depender da página do YouTube
+- "Atualizar agora" avisa com clareza quando o host nativo está registrado em outra pasta e diz o que fazer
 
 **Corrigido**
-- Biblioteca de letras com muitas músicas deixava os botões minúsculos e ilegíveis
-- O mesmo problema nas listas de momentos e de downloads
-- Avisos que reapareciam rápido podiam sumir antes da hora
+- Erro "Unsafe attempt to load URL" ao buscar os deslikes
+- Busca de letras podendo ser bloqueada pelo YouTube
 
 [Histórico completo](CHANGELOG.md)
 

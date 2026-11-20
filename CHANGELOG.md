@@ -1,5 +1,21 @@
 # Histórico de versões
 
+## v6.3 — SponsorBlock e biblioteca de letras (2026-11-20)
+
+**Novo**
+- SponsorBlock: pula sozinho patrocínios, autopromoção e pedidos de like/inscrição marcados pela comunidade
+- Ao pular um trecho aparece um aviso — clique nele para voltar
+- Trechos do SponsorBlock aparecem coloridos na barra de progresso
+- Aba Player mostra os trechos do vídeo e quanto tempo você economizou
+- Ajustes → SponsorBlock: escolha o que pular (intro, encerramento, enrolação e mais)
+- Busca e contador na biblioteca de letras
+- Botão para limpar a biblioteca de letras (pede confirmação)
+
+**Corrigido**
+- Biblioteca de letras com muitas músicas deixava os botões minúsculos e ilegíveis
+- O mesmo problema nas listas de momentos e de downloads
+- Avisos que reapareciam rápido podiam sumir antes da hora
+
 ## v6.2 — Atualizações automáticas (2026-11-20)
 
 **Novo**

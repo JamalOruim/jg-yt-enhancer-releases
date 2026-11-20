@@ -3,7 +3,7 @@
 Extensão para Chrome / Edge / Brave que turbina o YouTube: EQ gráfico, downloads com fila (yt-dlp),
 letras sincronizadas, loop A–B, filtros de vídeo, filtro de chat, deslikes e mais.
 
-**Versão atual: 6.2** — [baixar o .zip](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.2/JG-YouTube-Enhancer-v6.2.zip) · [todas as versões](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases)
+**Versão atual: 6.3** — [baixar o .zip](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.3/JG-YouTube-Enhancer-v6.3.zip) · [todas as versões](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases)
 
 ## Instalação (primeira vez)
 
@@ -18,23 +18,23 @@ A extensão verifica sozinha. Quando sair uma versão nova aparece um aviso no Y
 No painel, clique em **Atualizar agora**: ela baixa, confere a integridade e recarrega sozinha.
 Sem o host instalado, use **Atualizar manualmente**: extraia o `.zip` novo por cima da pasta atual e clique em **Já extraí — recarregar**.
 
-## Novidades da 6.2
+## Novidades da 6.3
 
-### v6.2 — Atualizações automáticas (2026-11-20)
+### v6.3 — SponsorBlock e biblioteca de letras (2026-11-20)
 
 **Novo**
-- Aviso de nova versão no painel e no botão JG, com a lista do que mudou
-- Botão "Atualizar agora": o host baixa a versão nova, confere a integridade e a extensão recarrega sozinha
-- Histórico de versões em Ajustes → Atualizações
-- Tela de novidades depois de cada atualização
-- O instalar_host.bat baixa o FFmpeg automaticamente se ele não estiver na pasta
+- SponsorBlock: pula sozinho patrocínios, autopromoção e pedidos de like/inscrição marcados pela comunidade
+- Ao pular um trecho aparece um aviso — clique nele para voltar
+- Trechos do SponsorBlock aparecem coloridos na barra de progresso
+- Aba Player mostra os trechos do vídeo e quanto tempo você economizou
+- Ajustes → SponsorBlock: escolha o que pular (intro, encerramento, enrolação e mais)
+- Busca e contador na biblioteca de letras
+- Botão para limpar a biblioteca de letras (pede confirmação)
 
-**Alterado**
-- O ID da extensão agora é fixo: o host nativo continua funcionando mesmo se a pasta mudar de lugar
-- O instalar_host.bat não pede mais o ID da extensão
-
-**Removido**
-- Pergunta do ID da extensão no instalador
+**Corrigido**
+- Biblioteca de letras com muitas músicas deixava os botões minúsculos e ilegíveis
+- O mesmo problema nas listas de momentos e de downloads
+- Avisos que reapareciam rápido podiam sumir antes da hora
 
 [Histórico completo](CHANGELOG.md)
 

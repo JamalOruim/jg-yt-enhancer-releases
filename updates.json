@@ -1,14 +1,37 @@
 {
-  "latest": "6.4",
-  "released": "2026-11-20",
-  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.4",
+  "latest": "6.5",
+  "released": "2026-11-23",
+  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.5",
   "zip": {
-    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.4/JG-YouTube-Enhancer-v6.4.zip",
-    "sha256": "abff1091ddf51acaa0b715e89b4d264154c5421974991d754f1dd3693fb10869",
-    "size": 1588184,
-    "name": "JG-YouTube-Enhancer-v6.4.zip"
+    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.5/JG-YouTube-Enhancer-v6.5.zip",
+    "sha256": "858a0e7bdd8dc3e6ac55ffaccd161eed88e7ad609dd598bc4271074c2342d082",
+    "size": 1592370,
+    "name": "JG-YouTube-Enhancer-v6.5.zip"
   },
   "changelog": [
+    {
+      "version": "6.5",
+      "date": "2026-11-23",
+      "title": "Nightcore, Slowed + Reverb e estabilidade",
+      "added": [
+        "Áudio → Efeito de velocidade: Nightcore (mais rápido e agudo) e Slowed + Reverb (mais lento, grave e com ambiência)",
+        "Ajuste de velocidade e de reverb em cada efeito, mostrando quantos semitons o tom mudou",
+        "Atalho Shift+V alterna Normal → Nightcore → Slowed + Reverb",
+        "Mini HUD mostra quando um efeito de velocidade está ligado"
+      ],
+      "changed": [
+        "O efeito continua ligado ao ir para o próximo vídeo e depois de recarregar a página",
+        "Trocar a velocidade pelo menu do YouTube, pelo painel ou pelo Turbo desliga o efeito, sem brigar com a sua escolha",
+        "Ao desligar o efeito, a velocidade volta ao que estava antes"
+      ],
+      "removed": [
+        "Nightcore como preset de EQ (virou um efeito próprio, que não é desligado pelo EQ automático)"
+      ],
+      "fixed": [
+        "Nightcore deixava de funcionar ao passar para o próximo vídeo e precisava ser reaplicado",
+        "A extensão podia sumir do navegador: o host agora limpa da pasta arquivos com \"_\" no nome, que o navegador recusa"
+      ]
+    },
     {
       "version": "6.4",
       "date": "2026-11-20",

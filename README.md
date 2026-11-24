@@ -3,7 +3,7 @@
 Extensão para Chrome / Edge / Brave que turbina o YouTube: EQ gráfico, downloads com fila (yt-dlp),
 letras sincronizadas, loop A–B, filtros de vídeo, filtro de chat, deslikes e mais.
 
-**Versão atual: 6.5** — [baixar o .zip](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.5/JG-YouTube-Enhancer-v6.5.zip) · [todas as versões](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases)
+**Versão atual: 6.6** — [baixar o .zip](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.6/JG-YouTube-Enhancer-v6.6.zip) · [todas as versões](https://github.com/JamalOruim/jg-yt-enhancer-releases/releases)
 
 ## Instalação (primeira vez)
 
@@ -18,27 +18,20 @@ A extensão verifica sozinha. Quando sair uma versão nova aparece um aviso no Y
 No painel, clique em **Atualizar agora**: ela baixa, confere a integridade e recarrega sozinha.
 Sem o host instalado, use **Atualizar manualmente**: extraia o `.zip` novo por cima da pasta atual e clique em **Já extraí — recarregar**.
 
-## Novidades da 6.5
+## Novidades da 6.6
 
-### v6.5 — Nightcore, Slowed + Reverb e estabilidade (2026-11-23)
+### v6.6 — Solucionador JS sem complicação (2026-11-23)
 
 **Novo**
-- Áudio → Efeito de velocidade: Nightcore (mais rápido e agudo) e Slowed + Reverb (mais lento, grave e com ambiência)
-- Ajuste de velocidade e de reverb em cada efeito, mostrando quantos semitons o tom mudou
-- Atalho Shift+V alterna Normal → Nightcore → Slowed + Reverb
-- Mini HUD mostra quando um efeito de velocidade está ligado
+- O instalar_host.bat instala o deno sozinho quando o PC não tem Node.js nem deno
+- Se o pip falhar, o deno é baixado direto do site oficial e a integridade é conferida
 
 **Alterado**
-- O efeito continua ligado ao ir para o próximo vídeo e depois de recarregar a página
-- Trocar a velocidade pelo menu do YouTube, pelo painel ou pelo Turbo desliga o efeito, sem brigar com a sua escolha
-- Ao desligar o efeito, a velocidade volta ao que estava antes
-
-**Removido**
-- Nightcore como preset de EQ (virou um efeito próprio, que não é desligado pelo EQ automático)
+- "Instalar agora" mostra o andamento e avisa quando o solucionador JS ficou pronto
+- O host encontra o Node.js e o deno mesmo quando foram instalados com o navegador aberto
 
 **Corrigido**
-- Nightcore deixava de funcionar ao passar para o próximo vídeo e precisava ser reaplicado
-- A extensão podia sumir do navegador: o host agora limpa da pasta arquivos com "_" no nome, que o navegador recusa
+- "Falta o solucionador JS" continuava aparecendo depois de instalar o deno pelo botão em alguns PCs
 
 [Histórico completo](CHANGELOG.md)
 

@@ -1,5 +1,18 @@
 # Histórico de versões
 
+## v6.6 — Solucionador JS sem complicação (2026-11-23)
+
+**Novo**
+- O instalar_host.bat instala o deno sozinho quando o PC não tem Node.js nem deno
+- Se o pip falhar, o deno é baixado direto do site oficial e a integridade é conferida
+
+**Alterado**
+- "Instalar agora" mostra o andamento e avisa quando o solucionador JS ficou pronto
+- O host encontra o Node.js e o deno mesmo quando foram instalados com o navegador aberto
+
+**Corrigido**
+- "Falta o solucionador JS" continuava aparecendo depois de instalar o deno pelo botão em alguns PCs
+
 ## v6.5 — Nightcore, Slowed + Reverb e estabilidade (2026-11-23)
 
 **Novo**

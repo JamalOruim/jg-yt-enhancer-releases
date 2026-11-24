@@ -1,14 +1,31 @@
 {
-  "latest": "6.5",
+  "latest": "6.6",
   "released": "2026-11-23",
-  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.5",
+  "page": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/tag/v6.6",
   "zip": {
-    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.5/JG-YouTube-Enhancer-v6.5.zip",
-    "sha256": "858a0e7bdd8dc3e6ac55ffaccd161eed88e7ad609dd598bc4271074c2342d082",
-    "size": 1592370,
-    "name": "JG-YouTube-Enhancer-v6.5.zip"
+    "url": "https://github.com/JamalOruim/jg-yt-enhancer-releases/releases/download/v6.6/JG-YouTube-Enhancer-v6.6.zip",
+    "sha256": "b977140107aa0652d914a4619e81691012c00b8a30a2d6c2315837b569e85fd8",
+    "size": 1594007,
+    "name": "JG-YouTube-Enhancer-v6.6.zip"
   },
   "changelog": [
+    {
+      "version": "6.6",
+      "date": "2026-11-23",
+      "title": "Solucionador JS sem complicação",
+      "added": [
+        "O instalar_host.bat instala o deno sozinho quando o PC não tem Node.js nem deno",
+        "Se o pip falhar, o deno é baixado direto do site oficial e a integridade é conferida"
+      ],
+      "changed": [
+        "\"Instalar agora\" mostra o andamento e avisa quando o solucionador JS ficou pronto",
+        "O host encontra o Node.js e o deno mesmo quando foram instalados com o navegador aberto"
+      ],
+      "removed": [],
+      "fixed": [
+        "\"Falta o solucionador JS\" continuava aparecendo depois de instalar o deno pelo botão em alguns PCs"
+      ]
+    },
     {
       "version": "6.5",
       "date": "2026-11-23",

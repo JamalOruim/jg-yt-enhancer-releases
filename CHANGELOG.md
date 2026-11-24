@@ -1,5 +1,25 @@
 # Histórico de versões
 
+## v6.5 — Nightcore, Slowed + Reverb e estabilidade (2026-11-23)
+
+**Novo**
+- Áudio → Efeito de velocidade: Nightcore (mais rápido e agudo) e Slowed + Reverb (mais lento, grave e com ambiência)
+- Ajuste de velocidade e de reverb em cada efeito, mostrando quantos semitons o tom mudou
+- Atalho Shift+V alterna Normal → Nightcore → Slowed + Reverb
+- Mini HUD mostra quando um efeito de velocidade está ligado
+
+**Alterado**
+- O efeito continua ligado ao ir para o próximo vídeo e depois de recarregar a página
+- Trocar a velocidade pelo menu do YouTube, pelo painel ou pelo Turbo desliga o efeito, sem brigar com a sua escolha
+- Ao desligar o efeito, a velocidade volta ao que estava antes
+
+**Removido**
+- Nightcore como preset de EQ (virou um efeito próprio, que não é desligado pelo EQ automático)
+
+**Corrigido**
+- Nightcore deixava de funcionar ao passar para o próximo vídeo e precisava ser reaplicado
+- A extensão podia sumir do navegador: o host agora limpa da pasta arquivos com "_" no nome, que o navegador recusa
+
 ## v6.4 — Correções de deslikes, letras e atualização (2026-11-20)
 
 **Alterado**
